@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Express & EJS Forms</title>
+	</head>
+	<body>
+		<h1><%= title %></h1>
+
+		<h2>Generate items</h2>
+
+		<form action="/" method="POST">
+			<label for="header">Header</label>
+			<input name="header" type="string" placeholder="next header" required />
+
+			<label for="amount">Amount</label>
+			<input name="amount" type="number" placeholder="amount of items" required />
+
+			<input type="submit" />
+		</form>
+	</body>
+</html>
